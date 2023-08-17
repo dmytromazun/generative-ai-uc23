@@ -1,0 +1,46 @@
+.app {
+  max-width: 1024px;
+  margin: auto;
+  padding: 20px;
+}
+
+.report {
+  width: 100%;
+}
+
+.report-subsections {
+  display: flex;
+  justify-content: space-between;
+}
+
+.report-subsection {
+  width: 48%;
+}
+
+.report-list {
+  padding: 0;
+  list-style: none;
+}
+
+.report-list-item {
+  padding: 5px;
+  margin-bottom: 3px;
+}
+
+.report-list-item.valid {
+  background: rgba(0, 128, 0, 0.85);
+}
+
+.report-list-item.invalid {
+  background: rgba(255, 0, 0, 0.85);
+}
+
+.generate-report-button {
+  margin-bottom: 30px;
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+.generate-report-button:hover {
+  cursor: pointer;
+}
